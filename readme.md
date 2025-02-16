@@ -1,8 +1,6 @@
-# ergosplit
+# ErgoSplit
 
-![ergosplit](imgur.com image replace me!)
-
-*A short description of the keyboard/project*
+*Project Description*
 
 * Keyboard Maintainer: [oliver](https://github.com/oliver_k3003)
 * Hardware Supported: *The PCBs, controllers supported*
@@ -14,9 +12,9 @@ Make example for this keyboard (after setting up your build environment):
 
 Flashing example for this keyboard:
 
-    make ergosplit:default:flash
+    qmk flash -kb ergosplit -km default -bl avrdude-split-left
 
-See the [build environment setup](https://docs.qmk.fm/#/getting_started_build_tools) and the [make instructions](https://docs.qmk.fm/#/getting_started_make_guide) for more information. Brand new to QMK? Start with our [Complete Newbs Guide](https://docs.qmk.fm/#/newbs).
+See the [build environment setup](https://docs.qmk.fm/#/getting_started_build_tools) and the [make instructions](https://docs.qmk.fm/#/getting_started_make_guide) for more information. Brand new to QMK? Start with [Complete Newbs Guide](https://docs.qmk.fm/#/newbs).
 
 ## Bootloader
 
